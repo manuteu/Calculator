@@ -1,0 +1,32 @@
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+.center {
+  text-align: center;
+}
+.results {
+  text-align: left;
+}
+.results2 {
+  text-align: right;
+  margin-top: -235px;
+}
+.inputsresults {
+  text-align: justify;
+}
+.inputA {
+  margin: 20px;
+  width: 20%;
+}
+.inputB {
+  margin: 40px;
+  width: 20%;
+}
+.label {
+  margin-left: 65px;
+}

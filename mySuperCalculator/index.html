@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Super Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center">Super Calculadora</h1>
+
+      <div class="inputs">
+
+        <label for="inputA" class="active">Primeiro número (A):</label>
+          <input autofocus id="inputA" type="number" value="2" />
+        
+          <label for="inputB" class="active">Segundo número (B):</label>
+          <input id="inputB" type="number" value="2" />
+        
+      </div>
+
+      <h2 class="center">Cálculos</h2>
+<div class="results">
+  <label class="label">A + B : <br /><input readonly class="inputsresults" type="text" id="sum" /></label><br />
+  <label class="label">A - B : <br /><input readonly class="inputsresults" type="text" id="subAB" /></label><br />
+  <label class="label">B - A : <br /><input readonly class="inputsresults" type="text" id="subBA" /></label><br />
+  <label class="label">A x B : <br /><input readonly class="inputsresults" type="text" id="AxB" /></label><br />
+  <label class="label">A / B : <br /><input readonly class="inputsresults" type="text" id="AdivB" /></label><br />
+  <label class="label">B / A : <br /><input readonly class="inputsresults" type="text" id="BdivA" /></label><br />
+</div>
+  <div class="results2">
+  <label class="label2">A² : <br /><input readonly class="inputsresults" type="text" id="AxA" /></label><br />
+  <label class="label2">B² : <br /><input readonly class="inputsresults" type="text" id="BxB" /></label><br />
+  <label class="label2"
+    >Divisores inteiros de A : <br />
+    <input readonly type="text" id="divIntA" /></label
+  ><br />
+  <label class="label2"
+    >Divisores inteiros de B : <br />
+    <input readonly type="text" id="divIntB" /></label
+  ><br />
+  <label class="label2">A! : <br /><input readonly type="text" id="Afactorial" /></label><br />
+  <label class="label2">B! : <br /><input readonly type="text" id="Bfactorial" /></label><br />
+</div>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
